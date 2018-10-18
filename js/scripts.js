@@ -5,7 +5,7 @@ $(document).ready(function() {
     var sideTwo = parseFloat($("#side2").val());
     var sideThree = parseFloat($("#side3").val());
 
-    if(sideOne && sideTwo && sideThree && side1 > 0 && side2 > 0 && side3 > 0) {
+    if(sideOne && sideTwo && sideThree && sideOne > 0 && sideTwo > 0 && sideThree > 0) {
       if (sideOne >= sideTwo + sideThree || sideTwo >= sideOne + sideThree || sideThree >= sideOne + sideTwo) {
         $("#not-a-triangle").show();
         $("#equilateral").hide();
