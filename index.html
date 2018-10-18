@@ -9,6 +9,44 @@
     <title>Triangle Tracker</title>
   </head>
   <body>
+    <div class="container">
+      <form id="triangle">
+        <div class="form-group">
+          <label for="side1">Enter side one of triangle:</label>
+          <input id="side1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="side2">Enter side two of triangle:</label>
+          <input id="side2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="side3">Enter side three of triangle:</label>
+          <input id="side3" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn-default">Submit</button>
+      </form>
+
+      <div id="equilateral">
+        <p>You have created an equilateral triangle!</p>
+      </div>
+
+      <div id="isosceles">
+        <p>You have created an isosceles triangle!</p>
+      </div>
+
+      <div id="scalene">
+        <p>You have created an scalene triangle!</p>
+      </div>
+
+      <div id="not-a-triangle">
+        <p>There is no triangle with the sides which you have inputed</p>
+      </div>
+
+      <div id="invalid">
+        <p>This is an invalid entry, try again!</p>
+      </div>
+
+    </div>
 
   </body>
 </html>
